@@ -1,0 +1,7 @@
+Inicio
+Algoritmo_Rendimento
+var: valor, rendimento
+Leia ("Digite o valor depositado: "), valor;
+rendimento <- valor * 1.007;
+Escreva ("Valor após 1 mês com rendimento: "), rendimento;
+Fim

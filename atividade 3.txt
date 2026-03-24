@@ -1,0 +1,8 @@
+Inicio
+Algoritimo_Conversão
+var: cotacao, valorD, conversaoR
+Leia (" Qual é a cotação do dólar?: "), cotacao;
+Leia (" Quantos dólares possui?: "), valorD;
+conversaoR <- valorD*cotacao;
+Escreva (" O valor convertido em reais é: "), conversaoR;
+Fim

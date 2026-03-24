@@ -1,0 +1,7 @@
+Inicio
+Algoritimo_Temperatura
+var: F, C
+Leia (" Escreva o valor dos graus celsius: "), C;
+F <- (9*C+160)/5
+Escreva (" Escreva o valor convertido em Fahrenheit: "), F;
+Fim
