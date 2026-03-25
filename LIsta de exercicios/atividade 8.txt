@@ -1,0 +1,42 @@
+Algoritimo_Carango
+Inicio
+Var
+carrosAte2010[], carros2011EmDiante[]: Real
+encerrar: caractere
+valor, totalGeral: Real
+ano, i : Inteiro
+repetir:lógica
+repetir = true
+i , j <- 0
+totalGeral = 0.0
+Enquanto repetir
+	Leia (" Digite o ano do veículo: ", ano)
+	Se { ano <= 2010 ) entao{
+		Leia ("Digite o valor do veículo ", valor)
+		carrosAte2010[i] <- (valor * 0,12) - valor
+		Leia ("Continuar cadastrando? S ou N", encerrar)
+		Se (encerrar == "N") Então {
+			repetir = false
+		}
+		i= i+1
+	}
+	Senão{
+		Leia (" Digite o valor do veículo: ", valor)
+		carros2011EmDiante[i] <- (valor * 0,7) - valor
+		Leia ("Continuar cadastrando? S ou N", encerrar)
+		Se (encerrar == "N") Então {
+			repetir = false
+		}
+		j= j+1
+	}
+}
+for (i = 0, i<carrosAte2010.tamanho, i++)
+	totalGeral = carrosAte2010[i] + totalGeral
+}
+for (i = 0, j<carrosEmDiante2011.tamanho, j++)
+	totalGeral = carrosAte2011[j] + totalGeral
+}
+Escreva (" Informar total de carros com o ano até 2010: ", carrosAte2010.tamanho)
+Escreva (" Total geral com descontos aplicados: ", totalGeral)
+fim
+

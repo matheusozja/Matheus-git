@@ -1,0 +1,20 @@
+Algoritimo_Aproveitamento_Aluno
+var
+nota1, nota2, nota3, media: real
+nome: caractere
+Leia (" Escreva seu nome: "), nome;
+Leia (" Digite a nota 1: "), nota1;
+Leia (" Digite a nota 2: "), nota2;
+Leia (" Digite a nota 3: "), nota3;
+media <- nota1 + nota2 + nota3 /3
+Se {media >= 7.0) Então
+ Escreva ("O aluno: ", nome)
+ Escreva (" Foi aprovado, sua nota é: ", media)
+}
+Senao se { media >= 5.1 e media <= 6.9 ) Então
+ Escreva ("O aluno: ", nome)
+ Escreva (" Está em recuperação, sua nota é: ", media)
+}
+Senao {
+	Escreva ("O aluno: ", nome )
+	Escreva (" O aluno foi reprovado ", media)

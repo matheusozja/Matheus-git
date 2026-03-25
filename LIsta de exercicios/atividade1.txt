@@ -1,0 +1,8 @@
+Inicio
+Algoritimo_Consumo_medio
+Var: distancia, combustivelG, consumo: Real 
+consumo <- distancia/combustivelG
+Leia (" Digite a distância percorrida: "), distancia;
+Leia (" Digite o combustível utilizado: "), combustivelG;
+Escreva (" O consumo total foi: "), consumo;
+Fim

@@ -1,0 +1,25 @@
+Algoritimo_Taboada
+Inicio
+Var
+N, T, i: Inteiro
+O: caractere
+Leia("Digite o número da taboada: ", N)
+Leia("Digite A para adição, S para subtração, D para divisão e M para multiplicação: ", 0)
+Leia("Digite o número final da taboada: ", T)
+Função taboada (N: inteiro, O: caractere, T: inteiro){
+	for(i=0, i<T, i++){
+		Se(O == "S"){
+			Escreva(" Taboada de Adição " + N " + " T " + " = " N+i)
+		}	
+		Senão se(O == "S"){
+			Escreva(" Taboada de Subtração " + N " - " T " + " = " N-i)
+	}
+		Senão se(O == "S"){
+			Escreva(" Taboada de Divisão " + N " / " T " + " = " N/i)
+	}
+		Senão (O == "S"){
+			Escreva(" Taboada de Multiplicação " + N " * " T " + " = " N*i)
+	}
+}
+Taboada (N, O , T)
+Fim
